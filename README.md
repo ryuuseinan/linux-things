@@ -14,7 +14,7 @@ python main.py
 #!/bin/bash
 
 export PYENV_VERSION=3.6.8
-python '/home/hinamic/osr2mp4-app/main.py'
+python '/home/<user>/osr2mp4-app/main.py'
 
 # Reset version
 unset PYENV_VERSION
