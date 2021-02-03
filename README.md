@@ -30,11 +30,20 @@ sudo pacman -S wine-staging winetricks giflib lib32-giflib libpng lib32-libpng l
 sudo nano /etc/environment
 RADV_PERFTEST=aco
 ```
++ Install osu-wine
+
+Download [this](https://drive.google.com/file/d/1iXIhJ20fe97A8xerU2aJGUe73p73V0iQ/view) file, for install:
+```
+cd Download
+yay -U wine-osu-5.14-2-x86_64.pkg.tar.zst
+```
 + Creating osu-wine prefix
-```export WINEPREFIX="$HOME/.wine_osu"
+```
+export WINEPREFIX="$HOME/.wine_osu"
 export WINEARCH=win32
 export PATH=/opt/wine-osu/bin:$PATH
 winetricks dotnet40 # do not install mono or gecko
+winetricks gdiplus
 ```
 + osu! installation
 ```
