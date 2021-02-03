@@ -4,6 +4,7 @@
 
 sudo pacman -S python-pip
 git clone https://github.com/uyitroa/osr2mp4-app
+
 cd osr2mp4-app
 pip install -r requirements.txt
 python install.py
