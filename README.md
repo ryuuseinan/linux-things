@@ -2,7 +2,9 @@
 
 # yay
 
-```sudo pacman -S yay base-devel```
+```
+sudo pacman -S yay base-devel
+```
 
 # osu!
 + Video drivers, wine, winetricks and system update
