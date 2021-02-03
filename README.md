@@ -1,5 +1,19 @@
 # linux-things
 
+# 20-amdgpu.conf
+
+```
+Section "Device"
+        Identifier "AMD"
+        Driver  "amdgpu"
+	Option "DRI" "3" 
+        Option "TearFree" "true"
+	Option "VariableRefresh" "true"
+	Option "AccelMethod" "glamor"
+	Option "SwapBuffersWait" "false"
+EndSection
+```
+
 # yay
 
 ```
@@ -21,8 +35,18 @@ RADV_PERFTEST=aco
 export WINEARCH=win32
 export PATH=/opt/wine-osu/bin:$PATH
 winetricks dotnet40 # do not install mono or gecko
-wget https://m1.ppy.sh/r/osu/!install.exe # you can skip this step if you want use an older instalation
 ```
++ osu! installation
+```
+wget https://m1.ppy.sh/r/osu/!install.exe # you can skip this step if you want use an older instalation
+wine osu\!install.exe
+```
++ Low latency
+
+daemon.conf
+
+default.pa
+
 + osu! Script
 ```
 #!/bin/sh
