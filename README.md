@@ -43,10 +43,7 @@ wine osu\!install.exe
 ```
 + Low latency
 
-Copy and paste these files with `sudo`
-[daemon.conf](https://cdn.discordapp.com/attachments/787140086151774248/798790395537784855/daemon.conf)
-
-[default.pa](https://cdn.discordapp.com/attachments/787140086151774248/798790398126063636/default.pa)
+Copy and paste these files with `sudo`: [daemon.conf](https://cdn.discordapp.com/attachments/787140086151774248/798790395537784855/daemon.conf), [default.pa](https://cdn.discordapp.com/attachments/787140086151774248/798790398126063636/default.pa)
 
 + osu! Script
 ```
