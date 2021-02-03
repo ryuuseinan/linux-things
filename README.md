@@ -4,8 +4,8 @@
 
 ```xrandr --newmode <copypaste for cvt>
 xrandr --addmode <your output video> <resolution_hertz>
-xrandr -r <hertz>```
-
+xrandr -r <hertz>
+```
 + 143Hz
 ```
 cvt 1920 1080 143
