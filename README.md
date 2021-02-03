@@ -21,7 +21,7 @@ RADV_PERFTEST=aco
 export WINEARCH=win32
 export PATH=/opt/wine-osu/bin:$PATH
 winetricks dotnet40 # do not install mono or gecko
-wget https://m1.ppy.sh/r/osu/!install.exe // you can skip this step if you want use an older instalation //
+wget https://m1.ppy.sh/r/osu/!install.exe # you can skip this step if you want use an older instalation
 ```
 + osu! Script
 ```
