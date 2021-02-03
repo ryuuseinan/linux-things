@@ -1,7 +1,12 @@
 # linux-things
 
-# Refresh rate change
+# Refresh rate change (use ```cvt``` for show proprieties)
 
+xrandr --newmode <copypaste for cvt>
+xrandr --addmode <your output video> <resolution_hertz>
+xrandr -r <hertz>
+
++ 143Hz
 ```
 cvt 1920 1080 143
 xrandr --newmode "1920x1080_143.00"  449.00  1920 2088 2296 2672  1080 1083 1088 1176 -hsync +vsync
