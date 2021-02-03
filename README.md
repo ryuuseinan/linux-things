@@ -2,9 +2,9 @@
 
 # Refresh rate change (use ```cvt``` for show proprieties)
 
-`xrandr --newmode <copypaste for cvt>
+```xrandr --newmode <copypaste for cvt>
 xrandr --addmode <your output video> <resolution_hertz>
-xrandr -r <hertz>`
+xrandr -r <hertz>```
 
 + 143Hz
 ```
