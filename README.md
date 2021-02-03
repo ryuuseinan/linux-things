@@ -63,6 +63,8 @@ export STAGING_AUDIO_DURATION=100000 # value will depend of your cpu, lower valu
 cd /your/osu/directory/xd/
 wine osu!.exe "$@"
 ```
+If you cannot execute osu!, try enabling AudioCompatibility in `osu!/osu!.<user>.cfg` and search AudioCompatibility, it will be in 0, change it to 1
+`AudioCompatibility = 1`
 
 # Refresh rate change (use ```xrandr``` for show proprieties)
 
