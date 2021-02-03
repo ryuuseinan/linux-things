@@ -16,15 +16,15 @@ RADV_PERFTEST=aco
 ```export WINEPREFIX="$HOME/.wine_osu"
 export WINEARCH=win32
 export PATH=/opt/wine-osu/bin:$PATH
-winetricks dotnet40 //do not install mono or gecko
-wget https://m1.ppy.sh/r/osu/!install.exe //you can skip this step if you want use an older instalation
+winetricks dotnet40 # do not install mono or gecko
+wget https://m1.ppy.sh/r/osu/!install.exe # you can skip this step if you want use an older instalation
 ```
 + osu! Script
 ```
 #!/bin/sh
 export WINEPREFIX="$HOME/.wine_osu" 
 export PATH=/opt/wine-osu/bin:$PATH 
-export STAGING_AUDIO_DURATION=100000 //value will depend of your cpu, lower value is lower latency
+export STAGING_AUDIO_DURATION=100000 # value will depend of your cpu, lower value is lower latency
 cd /your/osu/directory/xd/
 wine osu!.exe "$@"
 ```
