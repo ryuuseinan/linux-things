@@ -1,17 +1,19 @@
 # linux-things
 
-# Refresh rate change (use ```cvt``` for show proprieties)
+# Refresh rate change (use ```xrandr``` for show proprieties)
 
-```xrandr --newmode <copypaste for cvt>
-xrandr --addmode <your output video> <resolution_hertz>
-xrandr -r <hertz>
 ```
-+ 143Hz
+cvt <horizontal resolution> <vertical resolution> <refresh rate>
+xrandr --newmode <copypaste for cvt> 
+xrandr --addmode <output video> <resolution_hertz>
+xrandr --output <output video> --mode <resolution_hertz>
+```
++ 143Hz example
 ```
 cvt 1920 1080 143
 xrandr --newmode "1920x1080_143.00"  449.00  1920 2088 2296 2672  1080 1083 1088 1176 -hsync +vsync
 xrandr --addmode HDMI-A-0 1920x1080_143.00
-xrandr -r 143
+xrandr --output HDMI-A-0 --mode 1920x1080_143.00 
 ```
 + Dual monitors
 ```
