@@ -64,7 +64,9 @@ cd /your/osu/directory/xd/
 wine osu!.exe "$@"
 ```
 If you cannot execute osu!, try enabling AudioCompatibility in `osu!/osu!.<user>.cfg` and search AudioCompatibility, it will be in 0, change it to 1
-`AudioCompatibility = 1`
+```
+AudioCompatibility = 1
+```
 
 # Refresh rate change (use ```xrandr``` for show proprieties)
 
