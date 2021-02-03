@@ -15,7 +15,7 @@ xrandr --newmode "1920x1080_143.00"  449.00  1920 2088 2296 2672  1080 1083 1088
 xrandr --addmode HDMI-A-0 1920x1080_143.00
 xrandr --output HDMI-A-0 --mode 1920x1080_143.00 
 ```
-+ Dual monitors
++ Dual monitors example
 ```
 #!/bin/bash
 xrandr --newmode "1920x1080_143.00"  449.00  1920 2088 2296 2672  1080 1083 1088 1176 -hsync +vsync
