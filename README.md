@@ -50,7 +50,7 @@ Copy and paste these files with `sudo` in `/etc/pulse` : [daemon.conf](https://c
 #!/bin/sh
 export WINEPREFIX="$HOME/.wine_osu" 
 export PATH=/opt/wine-osu/bin:$PATH 
-export STAGING_AUDIO_DURATION=100000 # value will depend of your cpu, lower value is lower latency
+export STAGING_AUDIO_DURATION=100000 # value will depend of your cpu, lower value is lower latency, I recommend 150000 for a low-end cpu like pentium from 2015
 cd /your/osu/directory/xd/
 wine osu!.exe "$@"
 ```
