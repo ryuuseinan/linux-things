@@ -42,7 +42,7 @@ yay -U wine-osu-5.14-2-x86_64.pkg.tar.zst
 export WINEPREFIX="$HOME/.wine_osu"
 export WINEARCH=win32
 export PATH=/opt/wine-osu/bin:$PATH
-winetricks dotnet40 # do not install mono or gecko
+winetricks --force dotnet40 # do not install mono or gecko
 winetricks gdiplus
 ```
 + osu! installation
