@@ -1,6 +1,6 @@
 # linux-things
 
-# 20-amdgpu.conf
+# ntfs-3g
 ```
 sudo pacman -S gamin gvfs ntfs-3g dosfstools
 su
