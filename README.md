@@ -1,5 +1,12 @@
 # linux-things
 
+# OpenTabletDriver
+
+```
+yay -S opentabletdriver
+
+```
+
 # 20-amdgpu.conf
 
 ```
