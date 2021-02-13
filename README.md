@@ -3,6 +3,7 @@
 # BetterDiscord
 
 ```
+yay -S discord
 yay -S betterdiscordctl-git
 betterdiscordctl install
 betterdiscordctl reinstall
