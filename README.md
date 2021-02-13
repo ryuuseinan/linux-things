@@ -7,6 +7,7 @@ yay -S betterdiscordctl-git
 betterdiscordctl install
 betterdiscordctl reinstall
 ```
++ [MessageLogger](https://cdn.discordapp.com/attachments/788296417251950593/800944412258729984/MessageLoggerV2.plugin.js)
 
 # OpenTabletDriver
 
