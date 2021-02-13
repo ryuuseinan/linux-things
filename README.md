@@ -1,6 +1,27 @@
 # linux-things
 
 # 20-amdgpu.conf
+```
+sudo pacman -S gamin gvfs ntfs-3g dosfstools
+su
+cd /usr/share/polkit-1/rules.d
+thunar # create 10-enable-mount.rules and add 
+##########
+polkit.addRule(function(action, subject) {
+if (action.id.indexOf("org.freedesktop.udisks2.") == 0){ 
+       return polkit.Result.YES;
+   }
+}
+);
+##########
+sudo mkdir /BE6C6DD56C6D894B
+sudo mount -t ntfs-3g /dev/sdb2 /BE6C6DD56C6D894B 
+sudo ntfsfix /dev/sdb2 # try this if error
+sudo leafpad /etc/fstab
+/dev/sdb2 /BE6C6DD56C6D894B ntfs-3g uid=username,gid=users,umask=0022 0  0
+```
+
+# 20-amdgpu.conf
 
 ```
 Section "Device"
