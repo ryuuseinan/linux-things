@@ -14,7 +14,11 @@ betterdiscordctl reinstall
 
 ```
 yay -S opentabletdriver
-
+echo "blacklist wacom" | sudo tee -a /etc/modprobe.d/blacklist.conf
+sudo rmmod wacom
+sudo chmod 0666 /dev/uinput
+systemctl --user enable opentabletdriver --now
+systemctl --user restart opentabletdriver
 ```
 
 # 20-amdgpu.conf
