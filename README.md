@@ -1,5 +1,13 @@
 # linux-things
 
+# BetterDiscord
+
+```
+yay -S betterdiscordctl-git
+betterdiscordctl install
+betterdiscordctl reinstall
+```
+
 # OpenTabletDriver
 
 ```
