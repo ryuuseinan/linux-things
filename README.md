@@ -75,6 +75,10 @@ wine osu\!install.exe
 
 Copy and paste these files with `sudo` in `/etc/pulse` : [daemon.conf](https://cdn.discordapp.com/attachments/787140086151774248/798790395537784855/daemon.conf), [default.pa](https://cdn.discordapp.com/attachments/787140086151774248/798790398126063636/default.pa), later put `pulseaudio -k` in terminal for restart pulse.
 
++ WindowsFonts
+
+Download [this](https://1drv.ms/u/s!AgTOhQ7V3TN8jlZ1TL0afz19rgTS?e=7SrxGy) and put it in `/usr/share/fonts/WindowsFonts`
+
 + osu! Script
 ```
 #!/bin/sh
