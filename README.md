@@ -3,17 +3,18 @@
 # GatariServer
 First edit `sudo leafpad /etc/hosts` and put theses IPs:
 ```
-163.172.255.98 osu.ppy.sh
-163.172.255.98 c.ppy.sh
-163.172.255.98 c1.ppy.sh
-163.172.255.98 c2.ppy.sh
-163.172.255.98 c3.ppy.sh
-163.172.255.98 c4.ppy.sh
-163.172.255.98 c5.ppy.sh
-163.172.255.98 c6.ppy.sh
-163.172.255.98 ce.ppy.sh
-163.172.255.98 a.ppy.sh
-163.172.255.98 i.ppy.sh
+163.172.255.42 osu.ppy.sh
+163.172.255.42 c.ppy.sh
+163.172.255.42 c1.ppy.sh
+163.172.255.42 c2.ppy.sh
+163.172.255.42 c3.ppy.sh
+163.172.255.42 c4.ppy.sh
+163.172.255.42 c5.ppy.sh
+163.172.255.42 c6.ppy.sh
+163.172.255.42 ce.ppy.sh
+163.172.255.42 a.ppy.sh
+163.172.255.42 i.ppy.sh
+163.172.255.42 s.ppy.sh
 ```
 Download [this](http://storage.gatari.pw/ce.crt) file and put it `sudo cp /home/hinami/Descargas/ce.crt /etc/ca-certificates/trust-source/anchors/`, later update certifies with `sudo trust extract-compat`, later do: 
 ```
