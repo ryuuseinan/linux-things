@@ -1,7 +1,7 @@
 # linux-things
 
 # GatariServer
-Download [this](http://storage.gatari.pw/ce.crt) file and put it `sudo cp /home/hinami/Descargas/ce.crt /etc/ca-certificates/trust-source/anchors/`, later edit `sudo leafpad /etc/hosts` and put these IPs.
+Download [this](http://storage.gatari.pw/ce.crt) file and put it `sudo cp /home/hinami/Descargas/ce.crt /etc/ca-certificates/trust-source/anchors/`, later edit `sudo leafpad /etc/hosts` and put theses IPs:
 ```
 163.172.255.98 osu.ppy.sh
 163.172.255.98 c.ppy.sh
@@ -15,7 +15,8 @@ Download [this](http://storage.gatari.pw/ce.crt) file and put it `sudo cp /home/
 163.172.255.98 a.ppy.sh
 163.172.255.98 i.ppy.sh
 ```
-Now update certifies with `sudo trust extract-compat`, later do: ```
+Now update certifies with `sudo trust extract-compat`, later do: 
+```
 export WINEPREFIX="$HOME/.wine_osu" 
 export PATH=/opt/wine-osu/bin:$PATH
 wine control # Preferencias de Internet -> Contenido -> Certificados -> Importar -> Sigues los pasos para importar, pero lo importas dos veces (primero por el automatico, y luego por Autoridades de Certificación de Raíz de Confianza)
