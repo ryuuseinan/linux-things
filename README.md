@@ -1,5 +1,13 @@
 # linux-things
 
+# RetroArch
+
+```
+sudo pacman -S retroarch retroarch-assets-xmb retroarch-assets-ozone retroarch-assets-glui
+sudo pacman -S libretro
+sudo pacman -Ss libretro | grep emu # in emu you can put snes, mupen, etc.
+```
+
 # GatariServer
 First edit `sudo leafpad /etc/hosts` and put theses IPs:
 ```
