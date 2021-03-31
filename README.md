@@ -1,5 +1,7 @@
 # linux-things
 
+# sudo ./gosumemory --path /ubicación/donde/esta/tu/carpeta/songs/del/osu/XD
+
 # oldsu osu! 2009
 
 ```
