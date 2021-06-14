@@ -104,7 +104,7 @@ RADV_PERFTEST=aco
 ```
 + Install osu-wine
 
-Download [this](https://drive.google.com/file/d/1iXIhJ20fe97A8xerU2aJGUe73p73V0iQ/view) file, for install:
+Download [wine-osu-5.14](https://drive.google.com/file/d/1iXIhJ20fe97A8xerU2aJGUe73p73V0iQ/view) file or [wine-osu-6.8](https://drive.google.com/file/d/1uuUH__-cfZJ8RlytFeKWaOmN-JfFD2g2/view?usp=sharing), for install:
 ```
 cd Download
 yay -U wine-osu-5.14-2-x86_64.pkg.tar.zst
