@@ -2,11 +2,17 @@
 
 # sudo ./gosumemory --path /ubicación/donde/esta/tu/carpeta/songs/del/osu/XD
 
+# T-Launcher Minecraft
+
+```
+yay -S jre8
+https://dl2.tlauncher.org/f.php?f=files%2FTLauncher-2.8.zip
+```
+
 # oldsu osu! 2009
 
 ```
 yay -S dotnet-runtime
-
 ```
 
 # EpicGames
