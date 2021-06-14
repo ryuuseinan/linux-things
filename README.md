@@ -107,7 +107,7 @@ RADV_PERFTEST=aco
 Download [wine-osu-5.14](https://drive.google.com/file/d/1iXIhJ20fe97A8xerU2aJGUe73p73V0iQ/view) file or [wine-osu-6.8](https://drive.google.com/file/d/1uuUH__-cfZJ8RlytFeKWaOmN-JfFD2g2/view?usp=sharing), for install:
 ```
 cd Download
-yay -U wine-osu-5.14-2-x86_64.pkg.tar.zst
+yay -U wine-osu-5.14-2-x86_64.pkg.tar.zst OR yay -U old_wine-osu-6.8-1-x86_64.pkg.tar.zst
 ```
 + Creating osu-wine prefix
 ```
