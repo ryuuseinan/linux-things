@@ -2,6 +2,12 @@
 
 # sudo ./gosumemory --path /ubicación/donde/esta/tu/carpeta/songs/del/osu/XD
 
+# yuzu EA
+
+```
+sudo pacman -Syu --needed base-devel boost catch2 cmake ffmpeg fmt git glslang libzip lz4 mbedtls ninja nlohmann-json openssl opus python-pip python2 qt5 sdl2 zlib zstd
+```
+
 # flameshot
 
 ```
