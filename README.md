@@ -2,6 +2,14 @@
 
 # sudo ./gosumemory --path /ubicación/donde/esta/tu/carpeta/songs/del/osu/XD
 
+# flameshot
+
+```
+yay -S flameshot
+Settings > Keyobard > Hotkeys > flameshot gui
+```
+![](https://i.imgur.com/v1OPuEg.png)
+
 # T-Launcher Minecraft
 
 ```
