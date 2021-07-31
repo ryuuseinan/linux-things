@@ -78,7 +78,7 @@ systemctl --user enable opentabletdriver --now
 systemctl --user restart opentabletdriver
 ```
 
-# 20-amdgpu.conf
+# /etc/X11/xorg.conf.d/20-amdgpu.conf
 
 ```
 Section "Device"
