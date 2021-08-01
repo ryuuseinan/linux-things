@@ -144,7 +144,8 @@ wine osu\!install.exe
 ```
 + Low latency
 
-Copy and paste these files with `sudo` in `/etc/pulse` : [daemon.conf](https://cdn.discordapp.com/attachments/787140086151774248/798790395537784855/daemon.conf), [default.pa](https://cdn.discordapp.com/attachments/787140086151774248/798790398126063636/default.pa), later put `pulseaudio -k` in terminal for restart pulse.
+Copy and paste these files with `sudo` in `/etc/pulse` : [daemon.conf](https://cdn.discordapp.com/attachments/787140086151774248/798790395537784855/daemon.conf), [default.pa](https://cdn.discordapp.com/attachments/787140086151774248/798790398126063636/default.pa), later put this [file](https://cdn.discordapp.com/attachments/862792192388497408/871246685127458836/limits.conf) in `/etc/security/` and put `pulseaudio -k` in terminal for restart pulse.
+
 
 + WindowsFonts
 
