@@ -12,7 +12,7 @@ sudo pacman -Syu --needed base-devel boost catch2 cmake ffmpeg fmt git glslang l
 
 ```
 yay -S flameshot
-Settings > Keyobard > Hotkeys > flameshot gui
+Settings > Keyobard > Hotkeys > Programs > flameshot gui
 ```
 ![](https://i.imgur.com/v1OPuEg.png)
 
