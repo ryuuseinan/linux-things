@@ -61,7 +61,7 @@ First edit `sudo leafpad /etc/hosts` and put theses IPs:
 163.172.255.42 i.ppy.sh
 163.172.255.42 s.ppy.sh
 ```
-Download [this](http://storage.gatari.pw/ce.crt) file and put it `sudo cp /home/hinami/Descargas/ce.crt /etc/ca-certificates/trust-source/anchors/`, later update certifies with `sudo trust extract-compat`, later do: 
+[this](http://storage.gatari.pw/ce.crt) file and put it `sudo cp /home/hinami/Descargas/ce.crt /etc/ca-certificates/trust-source/anchors/`, later update certifies with `sudo trust extract-compat`, later do: 
 ```
 wine control # Preferencias de Internet -> Contenido -> Certificados -> Importar -> Sigues los pasos para importar, pero lo importas dos veces (primero por el automatico, y luego por Autoridades de Certificación de Raíz de Confianza)
 export WINEPREFIX="$HOME/.wine_osu" 
@@ -124,7 +124,7 @@ RADV_PERFTEST=aco
 ```
 + Install osu-wine
 
-Download [wine-osu-5.14](https://drive.google.com/file/d/1iXIhJ20fe97A8xerU2aJGUe73p73V0iQ/view) file or [wine-osu-6.8](https://drive.google.com/drive/folders/17MVlyXixv7uS3JW4B-H8oS4qgLn7eBw5), for install:
+Download [wine-osu-6.8](https://drive.google.com/drive/folders/17MVlyXixv7uS3JW4B-H8oS4qgLn7eBw5), for install:
 ```
 cd Download
 yay -U wine-osu-5.14-2-x86_64.pkg.tar.zst OR yay -U old_wine-osu-6.8-1-x86_64.pkg.tar.zst
