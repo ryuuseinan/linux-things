@@ -139,7 +139,7 @@ winetricks gdiplus
 ```
 + osu! installation
 ```
-wget https://m1.ppy.sh/r/osu/!install.exe # you can skip this step if you want use an older instalation
+wget https://m1.ppy.sh/r/osu\!install.exe # you can skip this step if you want use an older instalation
 wine osu\!install.exe
 ```
 + Low latency
