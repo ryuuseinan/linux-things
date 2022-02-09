@@ -1,4 +1,5 @@
 # linux-things
+This is for personal use :) if you understand something, you can use it.
 
 # sudo ./gosumemory --path /ubicación/donde/esta/tu/carpeta/songs/del/osu/XD
 
