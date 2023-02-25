@@ -113,6 +113,24 @@ EndSection
 sudo pacman -S yay base-devel
 ```
 
+# File /var/cache/pacman/pkg/xxxxxxxxxx.pkg.tar.zst is corrupted (invalid or corrupted package (PGP signature)).
+Do you want to delete it? [Y/n]
+```
+as root:
+
+rm -rf /etc/pacman.d/gnupg
+
+pacman-key --init
+
+pacman-key --populate archlinux
+
+pacman-key --refresh-keys
+
+pacman -Syy
+
+pacman -S archlinux-keyring
+```
+
 # osu!
 + Video drivers, wine, winetricks
 ```
