@@ -143,7 +143,7 @@ RADV_PERFTEST=aco
 ```
 + Install osu-wine
 
-Download [wine-osu](https://drive.google.com/drive/folders/17MVlyXixv7uS3JW4B-H8oS4qgLn7eBw5) or the build i use[](https://1drv.ms/u/s!AgTOhQ7V3TN8j3CguPol4TOAXOdS?e=j7YdCH), for install:
+Download [wine-osu](https://drive.google.com/drive/folders/17MVlyXixv7uS3JW4B-H8oS4qgLn7eBw5) or the build I [use](https://1drv.ms/u/s!AgTOhQ7V3TN8j3CguPol4TOAXOdS?e=j7YdCH), for install:
 ```
 cd Download
 yay -U wine-osu-5.14-2-x86_64.pkg.tar.zst OR yay -U old_wine-osu-6.8-1-x86_64.pkg.tar.zst
