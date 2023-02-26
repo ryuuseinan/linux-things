@@ -160,6 +160,10 @@ winetricks gdiplus
 ```
 wget https://m1.ppy.sh/r/osu\!install.exe # you can skip this step if you want use an older instalation
 wine osu\!install.exe
+
+# for wine internet issues:
+sudo setcap cap_net_raw+epi /usr/bin/wine-preloader 
+sudo setcap -r /usr/bin/wine-preloader
 ```
 + Low latency
 
