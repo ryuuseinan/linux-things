@@ -3,6 +3,22 @@ This is for personal use :) if you understand something, you can use it. (Arch l
 
 # sudo ./gosumemory --path /ubicación/donde/esta/tu/carpeta/songs/del/osu/XD
 
+# mysql
+```
+sudo pacman -Syu
+yay -S mariadb mysql-workbench
+sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+sudo systemctl start mariadb
+sudo mysql_secure_installation
+Enter
+n
+n
+Y
+Y
+Y
+Y
+sudo mysql -u root
+```
 # yuzu EA
 
 ```
