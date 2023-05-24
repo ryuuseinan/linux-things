@@ -19,6 +19,28 @@ Y
 Y
 sudo mysql -u root
 ```
++ WIP
+```
+CREATE DATABASE banchopydev;
+CREATE USER 'hinami'@'localhost' IDENTIFIED BY 'hinami';
+GRANT ALL PRIVILEGES ON banchopydev.* TO 'hinami'@'localhost';
+FLUSH PRIVILEGES;
+```
++ Estas serian tus credenciales:
+```
+YOUR_DB_NAME = banchopydev
+YOUR_DB_USER = hinami
+YOUR_DB_PASSWORD = hinami
+```
+
+```
+mysql -u hinami -p
+```
+
+# nginx
+```
+yay -S nginx
+```
 # yuzu EA
 
 ```
